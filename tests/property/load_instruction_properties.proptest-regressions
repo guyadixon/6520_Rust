@@ -1,0 +1,14 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc 4ec9dc34ba543262e0fc1e515367fa611a96b0d3686898c33c2096fdbd5e581c # shrinks to zp_ptr = 0, base_addr = 512, y_offset = 0, value = 1
+cc 3287612277c4c4c547d30966fb3a4d9320497afffa9696d6b7761ee07e089361 # shrinks to zp_base = 184, x_offset = 72, target_addr = 512, value = 1
+cc 06383af14028b485eccec003e3b4bac1e028996b5fa91c50d80a65ad9eca38d1 # shrinks to zp_addr = 1, value = 2
+cc 7425d430e0b30e842defba8548779f19cba10d5473c7951b0be64a503fef8127 # shrinks to zp_base = 152, x_offset = 105, value = 1
+cc aee6cfba0a8f35cafe8b76823e9c8f2ef1a2aba102a3ac73c1c2a15fbac90cec # shrinks to addr = 1, value = 2
+cc e3fef0fdf6f5b97bc1e89ab800d2307e5e5f815a0a395bf80828ff766ee72679 # shrinks to base_addr = 4066, x_offset = 31, value = 1
+cc fa74f85b9c3f352093d6f97e731216f2dc61bfa2add10cb9b681bebe665d4f6d # shrinks to zp_base = 0, x_offset = 0, target_addr = 4097, value = 1
+cc 8d033893e15739823cc17836722c51078d3ccfaed6a28f63ee7c470f06a9b76f # shrinks to addr = 4097, value = 2

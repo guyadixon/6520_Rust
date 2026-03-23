@@ -1,0 +1,23 @@
+[package]
+name = "cpu_6502_emulator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+minifb = "0.27"
+
+[dev-dependencies]
+proptest = "1.5"
+tempfile = "3.8"
+
+[[test]]
+name = "unit"
+path = "tests/unit/mod.rs"
+
+[[test]]
+name = "property"
+path = "tests/property/mod.rs"
+
+[[test]]
+name = "integration"
+path = "tests/integration/mod.rs"

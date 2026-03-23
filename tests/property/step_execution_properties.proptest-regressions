@@ -1,0 +1,9 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc 523e33806c1fb16485db2207c2d247e1df4f98807359b02b90358289fe1c5ac4 # shrinks to start_pc = 512, value1 = 0, value2 = 0
+cc a4784fa49cae7ea780ed0ce519b33cff1d539b8a2a1e2bbaa4ad32094eed654c # shrinks to opcode_index = 148, start_pc = 512, a_value = 0, x_value = 0, y_value = 0, sp_value = 2, memory_value = 0
+cc 77e2569b0421c08d2f5b03617d997049ca2d0036e1789143af503a72d38f3aa0 # shrinks to opcode_index = 118, start_pc = 512, a_value = 0, x_value = 0, y_value = 0, sp_value = 2, carry_flag = true, zero_flag = false, interrupt_flag = false, decimal_flag = false, overflow_flag = false, negative_flag = false, memory_value = 254
